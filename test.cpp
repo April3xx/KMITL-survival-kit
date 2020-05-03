@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <conio.h>
  int main (){
  int x,j,k;
   printf("Input number: "); 
@@ -7,6 +8,7 @@
    printf("+"); 
    for (k=x; k<10;k++) 
    printf("*"); 
-   printf("\n\n"); 
+   printf("\n\n");
+   getch(); 
    return 0;
  }

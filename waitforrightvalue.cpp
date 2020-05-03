@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <conio.h>
 int main(){
     int number;
             do{
@@ -8,4 +9,6 @@ int main(){
             while(!((2<=number)&&(number<=25)) );
             
     printf("good job motherfucker ur number is %d",number);
+    getch();
+    return(0);
 }
