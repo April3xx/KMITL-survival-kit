@@ -1,14 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 #include <conio.h>
- int main (){
- int x,j,k;
-  printf("Input number: "); 
-  scanf("%d", &x);
-   for (j=0;j<x;j++) 
-   printf("+"); 
-   for (k=x; k<10;k++) 
-   printf("*"); 
-   printf("\n\n");
-   getch(); 
-   return 0;
- }
+#include<string.h>
+void test(int i){
+    i+=200;
+   // printf("i in func %d",i);
+    
+}
+
+int main(){
+
+  int i =20;
+
+  test(i);
+
+  printf("i in main%d",i);
+  
+  //pass by value
+}

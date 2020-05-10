@@ -3,8 +3,8 @@
 
 int main()
 {
-    int count;                                           //declre variables
-    char sentence[100];                                  //declre variables
+    int count;                                           //declare variables
+    char sentence[100];                                  //declare variables
                                            
     printf("Enter sentence: ");                          //just print
     scanf("%[^\n]", sentence);
@@ -23,3 +23,9 @@ int main()
     return 0;                                              // the algo here is if count%(a+1)==a when a is the max number per line
 }
 // testcase >> You are the wind beneath my wings.
+// char sentence[10]=catcat;
+// c a t c a t '\0'
+// 0 1 2 3 4 5 6 7 8 9
+// 10 11 12
+
+// AM PM /12 
